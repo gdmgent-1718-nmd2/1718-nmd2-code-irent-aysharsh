@@ -1,0 +1,115 @@
+$keycolor: rgb(86, 15, 15);
+
+
+a {
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-size: 25px;
+ @media (min-width: 200px) {
+    font-size: 12px;
+  }
+  @media (min-width: 800px) {
+    font-size: 25px;
+  }
+}
+.a2 {
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 40px;
+ @media (min-width: 200px) {
+    font-size: 30px;
+  }
+  @media (min-width: 800px) {
+    font-size: 50px;
+  }
+
+} 
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-style: bold;
+font-size: 60px;
+text-align: left;
+ @media (min-width: 200px) {
+    font-size: 40px;
+  }
+  @media (min-width: 800px) {
+    font-size: 60px;
+  }
+}
+h6 {
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-size: 30px;
+text-align: left;
+ @media (min-width: 200px) {
+    font-size: 20px;
+  }
+  @media (min-width: 800px) {
+    font-size: 40px;
+  }
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-style: bold;
+font-size: 60px;
+padding: 10px;
+text-align: left;
+ @media (min-width: 200px) {
+    font-size: 30px;
+  }
+  @media (min-width: 800px) {
+    font-size: 60px;
+  }
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-size: 30px;
+text-align: left;
+ @media (min-width: 200px) {
+    font-size: 20px;
+  }
+  @media (min-width: 800px) {
+    font-size: 30px;
+  }
+}
+
+
+.btn-outline-danger {
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+color: $keycolor;
+border-color: $keycolor;
+
+&:hover {
+    background: $keycolor;
+    border-color: $keycolor;
+}
+
+}
+.btn-outline-dark {
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+padding: 10px;
+color: white;
+font-size: 20px;
+text-align: center;
+background-color: $keycolor;
+border-color: $keycolor;
+
+&:hover {
+    background-color: white;
+    color: $keycolor;
+    
+}
+}
+
+.img-fluid { 
+    margin: 0 0 30px 0;
+}
