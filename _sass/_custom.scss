@@ -1,12 +1,12 @@
 $keycolor: rgb(86, 15, 15);
-
+$basefont: 'Montserrat', sans-serif;;
 
 a {
-font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-weight: 300;
 font-size: 25px;
  @media (min-width: 200px) {
-    font-size: 8px;
+    font-size: 11px;
 
   }
   @media (min-width: 800px) {
@@ -14,18 +14,41 @@ font-size: 25px;
   }
 }
 a.footer {
-    font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-weight: 300;
 
  @media (min-width: 200px) {
-    font-size: 13px;
+    font-size: 10px;
   }
   @media (min-width: 800px) {
     font-size: 18px;
   }
+  }
+a.confirm {
+font-family: $basefont;
+font-weight: 300;
+ @media (min-width: 200px) {
+    font-size: 10px;
+  }
+  @media (min-width: 800px) {
+    font-size: 20px;
+  }
 }
+h4 {
+font-family: $basefont;
+font-weight: 300;
+margin: 30px 0 0 0;
+ @media (min-width: 200px) {
+    font-size: 20px;
+  }
+  @media (min-width: 800px) {
+    font-size: 25px;
+  }
+}
+
+
 a.locations {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $basefont;
 font-weight: 300;
 
  @media (min-width: 200px) {
@@ -37,7 +60,7 @@ font-weight: 300;
 }
 
 a.team {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $basefont;
 font-weight: 300;
  @media (min-width: 200px) {
     font-size: 10px;
@@ -48,7 +71,7 @@ font-weight: 300;
 }
 
 .a2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $basefont;
 font-weight: 600;
 font-size: 40px;
  @media (min-width: 200px) {
@@ -60,24 +83,12 @@ font-size: 40px;
 
 } 
 
-h1 {
-font-family: 'Montserrat', sans-serif;
-font-style: bold;
-
-text-align: left;
- @media (min-width: 200px) {
-    font-size: 28px;
-  }
-  @media (min-width: 800px) {
-    font-size: 60px;
-  }
-}
 h6 {
-font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-weight: 400;
 text-align: left;
  @media (min-width: 200px) {
-    font-size: 18px;
+    font-size: 15px;
   }
   @media (min-width: 800px) {
     font-size: 30px;
@@ -85,7 +96,7 @@ text-align: left;
 }
 
 h2 {
-font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-style: bold;
 text-align: left;
  @media (min-width: 200px) {
@@ -97,21 +108,21 @@ text-align: left;
 }
 
 h3 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 300;
+font-family: $basefont;
+font-weight: 500;
 font-size: 30px;
 text-align: left;
  @media (min-width: 200px) {
-    font-size: 20px;
+    font-size: 18px;
   }
   @media (min-width: 800px) {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
 
 .btn-outline-danger {
-font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-weight: 600;
 padding: 10px;
 font-size: 20px;
@@ -134,7 +145,7 @@ margin: 0 0px 30px 0;
 
 }
 .btn-outline-dark {
-font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-weight: 600;
 color: white;
 font-size: 20px;
@@ -219,8 +230,9 @@ padding: 30px;
     width: 99%;
   }
 }*/
+
 .text-right {
-font-family: 'Montserrat', sans-serif;
+font-family: $basefont;
 font-weight: 300;
 font-size: 30px;
 text-align: left;
@@ -241,7 +253,7 @@ text-align: left;
 }
 
 label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $basefont;
 font-weight: 200;
 font-size: 30px;
 text-align: left;
@@ -264,8 +276,8 @@ color: white;
 margin: 0 0 30px 0;
 }
  
-$complete: #2ECC71;
-$active: #3498DB;
+$complete: grey;
+
 $mute: #DFE3E4;
 
 .progress {
@@ -326,11 +338,11 @@ $mute: #DFE3E4;
       }
     }
     &.is-active {
-      color: $active;
+      color: $keycolor;
       
       &:before {
         color: #FFF;
-        background: $active;
+        background: $keycolor;
       }
     }
   }
@@ -383,7 +395,7 @@ $ltborder: #D7DDE5;
 }
 
 .cc-sm svg{
-  width: 32px;
+  width: 20px;
 }
 
 .cc-md svg{
@@ -392,6 +404,7 @@ $ltborder: #D7DDE5;
 
 .cc-lg svg{
   width: 128px;
+  margin: 20px;
 }
 
 /* FOR Footer */
@@ -501,6 +514,6 @@ $ltborder: #D7DDE5;
       &.linked-in {
         box-shadow: 1px 1px 1px darken($soc-linked-in,40%); 
       }
-    }
-  }
-}
+      }
+      }
+      }
