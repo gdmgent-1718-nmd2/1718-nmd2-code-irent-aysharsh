@@ -16,7 +16,7 @@ title: Shopping Cart
 
 <div class="containerform">
     <div class="row justify-content-center">
-    <div class="col-4">
+    <div class="col-12 col-xl-4 col-lg-4">
 <div class="form-group">
     <label for="exampleFormControlSelect1">Select event</label>
     <select class="form-control" id="exampleFormControlSelect1">
@@ -26,7 +26,7 @@ title: Shopping Cart
     </select>
   </div>
   </div>
-  <div class="col-4">
+  <div class="col-12 col-xl-4 col-lg-4">
   <div class="form-group">
       
     <label for="exampleFormControlSelect1">Select date</label>
@@ -45,7 +45,7 @@ title: Shopping Cart
     </select>
   </div>
   </div>
-  <div class="col-4">
+  <div class="col-12 col-xl-4 col-lg-4">
   
   <div class="form-group">
     <label for="exampleFormControlSelect1">Select Time</label>
@@ -65,18 +65,24 @@ title: Shopping Cart
 </div>
 </div>
 </div>
-<div class="container">
-  <h2>Basket</h2>
+<div class="row">
+<div class="col-6 col-xl-6 col-lg-6">
+  <h2>Basket</h2> 
+  </div>
+  <div class="col-6 col-xl-6 col-lg-6">
+  <button type="button" class="btn btn-light">+</button>
+  </div>
+  </div>
+  <div class="row">
+<div class="col-12 col-xl-4 col-lg-4">
   <table class="table table-xs">
-
     <tr class="item-row">
-
       <td>
         <a> <strong>Rock werchter</strong></a> <br>
         <a>Details van ticket</a>
       </td>
-      <td class="text-right" title="Price">€50.00</td>
-      <td class="text-right" title="shop">Delete</td>
+      <td class="text-right" >€50.00</td>
+      <td class="text-right" >Delete</td>
       
     </tr>
     <tr class="item-row item-row-last">
@@ -84,13 +90,15 @@ title: Shopping Cart
         <a><strong>Rock Werchter</strong></a> <br>
         <a>Details van ticket</a>
       </td>
-      <td class="text-right" title="Price">€40.00</td>
-      <td class="text-right" title="shop">Delete</td>
+      <td class="text-right">€40.00</td>
+      <td class="text-right">Delete</td>
       
     </tr>
     </tr>
   </table>
 </div>
+</div>
 <div class="row justify-content-end">
 <a href="{{ site.baseurl }}/billinginfo.html"><button type="button" class="btn btn-link">Continue</button></a>
 </div>
+

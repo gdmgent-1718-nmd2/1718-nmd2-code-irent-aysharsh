@@ -6,12 +6,47 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 font-size: 25px;
  @media (min-width: 200px) {
-    font-size: 12px;
+    font-size: 8px;
+
+  }
+  @media (min-width: 800px) {
+    font-size: 20px;
+  }
+}
+a.footer {
+    font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+
+ @media (min-width: 200px) {
+    font-size: 13px;
+  }
+  @media (min-width: 800px) {
+    font-size: 18px;
+  }
+}
+a.locations {
+    font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+
+ @media (min-width: 200px) {
+    font-size: 15px;
+  }
+  @media (min-width: 800px) {
+    font-size: 18px;
+  }
+}
+
+a.team {
+    font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+ @media (min-width: 200px) {
+    font-size: 10px;
   }
   @media (min-width: 800px) {
     font-size: 25px;
   }
 }
+
 .a2 {
     font-family: 'Montserrat', sans-serif;
 font-weight: 600;
@@ -28,10 +63,10 @@ font-size: 40px;
 h1 {
 font-family: 'Montserrat', sans-serif;
 font-style: bold;
-font-size: 60px;
+
 text-align: left;
  @media (min-width: 200px) {
-    font-size: 40px;
+    font-size: 28px;
   }
   @media (min-width: 800px) {
     font-size: 60px;
@@ -39,11 +74,10 @@ text-align: left;
 }
 h6 {
 font-family: 'Montserrat', sans-serif;
-font-weight: 300;
-font-size: 20px;
+font-weight: 400;
 text-align: left;
  @media (min-width: 200px) {
-    font-size: 20px;
+    font-size: 18px;
   }
   @media (min-width: 800px) {
     font-size: 30px;
@@ -53,8 +87,6 @@ text-align: left;
 h2 {
 font-family: 'Montserrat', sans-serif;
 font-style: bold;
-font-size: 60px;
-padding: 10px;
 text-align: left;
  @media (min-width: 200px) {
     font-size: 30px;
@@ -86,22 +118,36 @@ font-size: 20px;
 text-align: center;
 color: $keycolor;
 border-color: $keycolor;
+margin: 0 0px 30px 0;
+@media (min-width: 200px) {
+    font-size: 15px;
+  }
+  @media (min-width: 800px) {
+    font-size: 20px;
+  }
 
 &:hover {
     background: $keycolor;
     border-color: $keycolor;
 }
 
+
 }
 .btn-outline-dark {
 font-family: 'Montserrat', sans-serif;
 font-weight: 600;
-padding: 10px;
 color: white;
 font-size: 20px;
+padding: 10px;
 text-align: center;
 background-color: $keycolor;
 border-color: $keycolor;
+@media (min-width: 200px) {
+    font-size: 15px;
+  }
+  @media (min-width: 800px) {
+    font-size: 20px;
+  }
 
 &:hover {
 background-color: white;
@@ -119,8 +165,8 @@ background-color: $keycolor;
 .custom-select{
 padding: 30px;
 }
-
-@media (max-width: 414px) {
+/*
+@media (max-width: 200px) {
   .table-xs tr,
   .table-xs td,
   .table-xs tbody,
@@ -172,7 +218,7 @@ padding: 30px;
   .table-xs .total-row td:first-child {
     width: 99%;
   }
-}
+}*/
 .text-right {
 font-family: 'Montserrat', sans-serif;
 font-weight: 300;
@@ -191,6 +237,7 @@ text-align: left;
   padding: 70px;
   background: $keycolor;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 0 0 30px 0;
 }
 
 label {
@@ -209,10 +256,12 @@ text-align: left;
 .form-group-billinginfo {
 background-color: white;
 color: black;
+margin:0 0 20px 0;
 }
 .form-group {
 background-color: transparent;
 color: white;
+margin: 0 0 30px 0;
 }
  
 $complete: #2ECC71;
@@ -350,7 +399,7 @@ $ltborder: #D7DDE5;
 
 .social-icons {
   
-  $soc-icon-size: 2.5em; // adjust me
+  $soc-icon-size: 2.0em; // adjust me
   
   $soc-twitter: #45B0E3;
   $soc-facebook: #39599F;
