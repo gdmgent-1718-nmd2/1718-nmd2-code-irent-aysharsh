@@ -8,6 +8,7 @@ font-size: 25px;
  @media (min-width: 200px) {
     font-size: 11px;
 
+
   }
   @media (min-width: 800px) {
     font-size: 20px;
@@ -243,6 +244,9 @@ text-align: left;
     font-size: 20px;
   }
 }
+.table td{
+border-top: 2px solid $keycolor;
+}
 
 .containerform {
   text-align: center;
@@ -281,6 +285,7 @@ $complete: grey;
 $mute: #DFE3E4;
 
 .progress {
+  font-family: $basefont;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -412,7 +417,7 @@ $ltborder: #D7DDE5;
 
 .social-icons {
   
-  $soc-icon-size: 2.0em; // adjust me
+  $soc-icon-size: 1.8em; // adjust me
   
   $soc-twitter: #45B0E3;
   $soc-facebook: #39599F;
