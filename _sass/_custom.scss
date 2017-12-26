@@ -15,14 +15,18 @@ font-size: 25px;
   }
 }
 a.footer {
+display:block;
 font-family: $basefont;
 font-weight: 300;
 
+
  @media (min-width: 200px) {
-    font-size: 10px;
+    font-size: 8px;
+    line-height: 10px;
   }
   @media (min-width: 800px) {
     font-size: 18px;
+    line-height: 20px;
   }
   }
 a.confirm {
